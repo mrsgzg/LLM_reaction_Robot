@@ -1,0 +1,114 @@
+{
+  "recommended_delay_ms": 800.0,
+  "recommended_delay_frames": 24,
+  "fps": 30,
+  "global_statistics": {
+    "median_ms": 800.0,
+    "mean_ms": 8931.892245967412,
+    "std_ms": 17619.178495489927
+  },
+  "per_au_delays": {
+    "AU1": {
+      "mean_onset_ms": 20927.848101265823,
+      "median_onset_ms": 11666.666666666668,
+      "std_onset_ms": 25447.22009768164,
+      "n_samples": 158
+    },
+    "AU10": {
+      "mean_onset_ms": 8103.333333333334,
+      "median_onset_ms": 266.6666666666667,
+      "std_onset_ms": 17607.69010386231,
+      "n_samples": 280
+    },
+    "AU12": {
+      "mean_onset_ms": 9686.304909560724,
+      "median_onset_ms": 700.0,
+      "std_onset_ms": 17570.340295361366,
+      "n_samples": 258
+    },
+    "AU14": {
+      "mean_onset_ms": 190.15659955257271,
+      "median_onset_ms": 0.0,
+      "std_onset_ms": 1044.566234510985,
+      "n_samples": 298
+    },
+    "AU15": {
+      "mean_onset_ms": 7406.641123882503,
+      "median_onset_ms": 1466.6666666666665,
+      "std_onset_ms": 13455.772062105632,
+      "n_samples": 261
+    },
+    "AU17": {
+      "mean_onset_ms": 5920.740740740741,
+      "median_onset_ms": 700.0,
+      "std_onset_ms": 12724.852302402956,
+      "n_samples": 270
+    },
+    "AU18": {
+      "mean_onset_ms": 955.5555555555555,
+      "median_onset_ms": 0.0,
+      "std_onset_ms": 5358.341782360337,
+      "n_samples": 294
+    },
+    "AU2": {
+      "mean_onset_ms": 14601.646090534981,
+      "median_onset_ms": 7133.333333333333,
+      "std_onset_ms": 19307.280517117237,
+      "n_samples": 162
+    },
+    "AU20": {
+      "mean_onset_ms": 2789.8850574712646,
+      "median_onset_ms": 0.0,
+      "std_onset_ms": 8437.538204040478,
+      "n_samples": 290
+    },
+    "AU23": {
+      "mean_onset_ms": 7107.5268817204305,
+      "median_onset_ms": 866.6666666666667,
+      "std_onset_ms": 17101.540028397023,
+      "n_samples": 279
+    },
+    "AU25": {
+      "mean_onset_ms": 11580.22813688213,
+      "median_onset_ms": 5933.333333333334,
+      "std_onset_ms": 14902.30167228306,
+      "n_samples": 263
+    },
+    "AU26": {
+      "mean_onset_ms": 8576.352201257861,
+      "median_onset_ms": 1933.3333333333333,
+      "std_onset_ms": 14970.559315949034,
+      "n_samples": 265
+    },
+    "AU4": {
+      "mean_onset_ms": 22374.937343358393,
+      "median_onset_ms": 11933.333333333334,
+      "std_onset_ms": 28735.91984765137,
+      "n_samples": 133
+    },
+    "AU5": {
+      "mean_onset_ms": 16692.47311827957,
+      "median_onset_ms": 9066.666666666666,
+      "std_onset_ms": 22376.602886210734,
+      "n_samples": 186
+    },
+    "AU6": {
+      "mean_onset_ms": 4091.252955082743,
+      "median_onset_ms": 0.0,
+      "std_onset_ms": 12212.56677203396,
+      "n_samples": 282
+    },
+    "AU7": {
+      "mean_onset_ms": 19772.83950617284,
+      "median_onset_ms": 10266.666666666668,
+      "std_onset_ms": 27119.51107168609,
+      "n_samples": 189
+    },
+    "AU9": {
+      "mean_onset_ms": 14632.840722495896,
+      "median_onset_ms": 7266.666666666667,
+      "std_onset_ms": 19041.190472846883,
+      "n_samples": 203
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "train_statistics": {
+    "count": 1660,
+    "mean_frames": 2071.332530120482,
+    "median_frames": 1626.5,
+    "std_frames": 1562.3065224681777,
+    "min_frames": 58,
+    "max_frames": 21145,
+    "p25_frames": 902.0,
+    "p75_frames": 2940.25,
+    "p90_frames": 4375.200000000001,
+    "p95_frames": 4558.0,
+    "p99_frames": 6328.280000000001,
+    "mean_duration_sec": 69.0445983753012,
+    "fps": 30.0
+  },
+  "val_statistics": {
+    "count": 571,
+    "mean_frames": 1779.7968476357269,
+    "median_frames": 1439.0,
+    "std_frames": 1321.6409812890324,
+    "min_frames": 245,
+    "max_frames": 10464,
+    "p25_frames": 872.0,
+    "p75_frames": 2189.5,
+    "p90_frames": 3607.0,
+    "p95_frames": 4515.5,
+    "p99_frames": 6186.299999999991,
+    "mean_duration_sec": 59.32673671628723,
+    "fps": 30.0
+  },
+  "recommendations": {
+    "max_seq_length_90pct": 4375,
+    "max_seq_length_95pct": 4558,
+    "max_seq_length_99pct": 6328,
+    "recommended": 4558,
+    "sliding_window_size": 1000,
+    "sliding_window_stride": 500
+  }
+}

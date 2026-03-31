@@ -1,0 +1,28 @@
+{
+  "train": {
+    "total_samples": 1660,
+    "issues": {
+      "missing_files": 0,
+      "invalid_au_prob": 0,
+      "frame_mismatch": 1,
+      "fps_inconsistent": 0,
+      "short_samples": 0,
+      "noisy_au": 0
+    }
+  },
+  "val": {
+    "total_samples": 571,
+    "issues": {
+      "missing_files": 0,
+      "invalid_au_prob": 0,
+      "frame_mismatch": 0,
+      "fps_inconsistent": 0,
+      "short_samples": 0,
+      "noisy_au": 0
+    }
+  },
+  "data_leakage": {
+    "overlapping_samples": 101,
+    "overlap_percentage": 99.01960784313727
+  }
+}

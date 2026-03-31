@@ -1,0 +1,63 @@
+
+📊 Dataset Analysis Summary Report
+Generated at: 2026-01-02 16:52:45
+
+======================================================================
+1. Dataset Size
+======================================================================
+  Train: 1660 samples
+  Val:   571 samples
+
+======================================================================
+2. AU Activation Frequency (Key Findings)
+======================================================================
+  High-freq AU (>20%): 11 个
+  Mid-freq AU (5-20%): 5 个
+  Low-freq AU (<5%): 1 个
+
+  不平衡比: 35.0x
+
+  → Recommendation: Use weighted loss function (config saved to au_loss_weights.json)
+
+======================================================================
+3. Reaction Delay Pattern
+======================================================================
+  Median延迟: 800 ms
+  Recommendedframes偏移: 24 frames (30 FPS)
+
+  → Recommendation: Use during training target_frame = current_frame + 24
+  → 机器人部署: Predict future 800ms AU
+
+======================================================================
+4. samples长度distribution
+======================================================================
+  Mean长度: 2071 frames (69.0 sec)
+  95%samples ≤ 4558 frames
+
+  → Recommended max_seq_length: 4558 (覆盖95%samples)
+  → or use sliding window: 1000-1500frames/window
+
+======================================================================
+5. Data Quality
+======================================================================
+  Missing files: 0 / 1660
+  Invalid AU probs: 0 / 1660
+  Data leakage: 101 重复samples
+
+  → Status: Need to clean data
+
+======================================================================
+6. Next Actions
+======================================================================
+  ✓ View generated figures: ../analysis_results/
+  ✓ Use config files:
+     - au_loss_weights.json (损失Weight)
+     - reaction_delay_config.json (time offset)
+     - sample_length_config.json (sequence length)
+
+  → Before starting training:
+     1. If data issues exist, clean first
+     2. Adjust batch_size based on max_seq_length
+     3. 在训练脚本中应用AUWeight和延迟偏移
+
+======================================================================
